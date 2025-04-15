@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['apc', 'bike', 'bus', 'car', 'person', 'tank', 'truck', 'motor cycle', 'rickshaw']
+
+roboflow:
+  workspace: realtimecv
+  project: final-vopta
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/realtimecv/final-vopta/dataset/7
